@@ -1,13 +1,13 @@
-const botaoMostraPalavras = document.query Selector (*#botao-palavrachave*):
+const botaoMostraPalavras = document.querySelector ("#botao-palavrachave");
 
-botaoMostraPalavras.addEventListener("click", mostraPalavrasChave):
+botaoMostraPalavras.addEventListener("click", mostraPalavrasChave);
 
-function mostraPalavrasChave0 {
+function mostraPalavrasChave() {
 const texto = document.query Selector (*#entrada-de-texto*).value;
 
-const campoResultado = document. query Selector (*#resultado-palavrachave"):
+const campoResultado = document.querySelector ("#resultado-palavrachave"):
 
-const palavrasChave = processaTexte(texto):
+const palavrasChave = processaTexte(texto);
 
-campoResultado.textContent = palavrasChave.join(*. ):
+campoResultado.textContent = palavrasChave.join(",");
 }
